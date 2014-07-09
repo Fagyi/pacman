@@ -188,6 +188,7 @@
   <project path="external/bson" name="android_external_bson" remote="cm" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" />
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" remote="cm" />
+  <project path="external/cardslib" name="android_external_cardslib" groups="pdk" remote="cm" />
   <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" remote="cm" />
   <project path="external/chromium" name="android_external_chromium" remote="cm" />
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" remote="cm" />
