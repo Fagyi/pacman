@@ -344,7 +344,7 @@
   <project path="external/tagsoup" name="android_external_tagsoup" remote="cm" />
   <project path="external/tcpdump" name="android_external_tcpdump" remote="cm" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="cm" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="cm" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="cm" />
   <project path="external/tinyxml" name="android_external_tinyxml" groups="pdk" remote="cm" />
   <project path="external/tinyxml2" name="android_external_tinyxml2" groups="pdk" remote="cm" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="cm" />
