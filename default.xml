@@ -348,6 +348,7 @@
   <project path="external/v8" name="android_external_v8" remote="cm" />
   <project path="external/valgrind" name="android_external_valgrind" groups="pdk" remote="cm" />
   <project path="external/vim" name="android_external_vim" remote="cm" />
+  <project path="external/webkit" name="androidarmv6/android_external_webkit" />
   <project path="external/webp" name="android_external_webp" remote="cm" />
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" remote="cm" />
   <project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" />
@@ -493,7 +494,7 @@
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
+  <project path="vendor/cm" name="androidarmv6/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-11.0" />
 
   <!-- Device extras: legacy support -->
