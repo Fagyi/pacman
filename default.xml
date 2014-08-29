@@ -145,11 +145,11 @@
   <!-- CyanogenMod -->
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" />
   <project path="art" name="android_art" remote="cm" />
-  <project path="bionic" name="androidarmv6/android_bionic" remote="github" revision="cm-11.0" />
+  <project path="bionic" name="androidarmv6/android_bionic" revision="cm-11.0" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" />
-  <project path="bootable/recovery" name="androidarmv6/android_bootable_recovery" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="bootable/recovery" name="androidarmv6/android_bootable_recovery" revision="cm-11.0" groups="pdk" />
   <project path="bootable/recovery-cm" name="android_bootable_recovery-cm" remote="cm" />
-  <project path="dalvik" name="androidarmv6/android_dalvik" remote="github" revision="cm-11.0" />
+  <project path="dalvik" name="androidarmv6/android_dalvik" revision="cm-11.0" />
   <project path="development" name="android_development" remote="cm" />
   <project path="device/common" name="android_device_common" remote="cm" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" remote="cm" />
@@ -184,9 +184,9 @@
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" remote="cm" />
   <project path="external/cardslib" name="android_external_cardslib" remote="cm" />
   <project path="external/checkpolicy" name="android_external_checkpolicy" groups="pdk" remote="cm" />
-  <project path="external/chromium" name="androidarmv6/android_external_chromium" remote="github" revision="cm-11.0" />
+  <project path="external/chromium" name="androidarmv6/android_external_chromium" revision="cm-11.0" />
   <project path="external/chromium-trace" name="android_external_chromium-trace" groups="pdk" remote="cm" />
-  <project path="external/chromium_org" name="androidarmv6/android_external_chromium_org" remote="github" revision="cm-11.0" />
+  <project path="external/chromium_org" name="androidarmv6/android_external_chromium_org" revision="cm-11.0" />
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="cm" />
   <project path="external/clang" name="android_external_clang" groups="pdk" remote="cm" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cm" />
@@ -261,7 +261,7 @@
   <project path="external/libgsm" name="android_external_libgsm" groups="pdk" remote="cm" />
   <project path="external/liblzf" name="android_external_liblzf" groups="pdk" remote="cm" />
   <project path="external/libmtp" name="android_external_libmtp" remote="cm" />
-  <project path="external/libncurses" name="androidarmv6/android_external_libncurses" remote="github" revision="cm-11.0" />
+  <project path="external/libncurses" name="androidarmv6/android_external_libncurses" revision="cm-11.0" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="cm" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" />
   <project path="external/libnl-headers" name="android_external_libnl-headers" groups="pdk" remote="cm" />
@@ -284,7 +284,7 @@
   <project path="external/libyuv" name="android_external_libyuv" groups="libyuv" remote="cm" />
   <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" remote="cm" />
   <project path="external/littlemock" name="android_external_littlemock" remote="cm" />
-  <project path="external/llvm" name="androidarmv6/android_external_llvm" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="external/llvm" name="androidarmv6/android_external_llvm" revision="cm-11.0" groups="pdk" />
   <project path="external/lsof" name="android_external_lsof" remote="cm" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" />
   <project path="external/markdown" name="android_external_markdown" remote="cm" />
@@ -323,7 +323,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="cm" />
   <project path="external/safe-iop" name="android_external_safe-iop" groups="pdk" remote="cm" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cm" />
-  <project path="external/skia" name="androidarmv6/android_external_skia" remote="github" revision="cm-11.0" />
+  <project path="external/skia" name="androidarmv6/android_external_skia" revision="cm-11.0" />
   <project path="external/smali" name="android_external_smali" remote="cm" />
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="cm" />
   <project path="external/speex" name="android_external_speex" groups="pdk" remote="cm" />
@@ -331,7 +331,7 @@
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cm" />
   <project path="external/square/dagger" name="android_external_square_dagger" remote="cm" />
   <project path="external/square/javawriter" name="android_external_square_javawriter" remote="cm" />
-  <project path="external/srec" name="androidarmv6/android_external_srec" remote="github" revision="cm-11.0" />
+  <project path="external/srec" name="androidarmv6/android_external_srec" revision="cm-11.0" />
   <project path="external/srtp" name="android_external_srtp" remote="cm" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" />
   <project path="external/stlport" name="android_external_stlport" groups="pdk" remote="cm" />
@@ -352,21 +352,21 @@
   <project path="external/webrtc" name="android_external_webrtc" groups="pdk" remote="cm" />
   <project path="external/whispersystems/TextSecure" name="android_external_whispersystems_TextSecure" remote="cm" />
   <project path="external/whispersystems/WhisperPush" name="android_external_whispersystems_WhisperPush" remote="cm" />
-  <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" revision="cm-11.0" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" />
   <project path="external/xmlwriter" name="android_external_xmlwriter" remote="cm" />
   <project path="external/xmp_toolkit" name="android_external_xmp_toolkit" remote="cm" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" remote="cm" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="cm" />
   <project path="external/zxing" name="android_external_zxing" remote="cm" />
-  <project path="frameworks/av" name="androidarmv6/android_frameworks_av" remote="github" groups="pdk" />
-  <project path="frameworks/compile/libbcc" name="androidarmv6/android_frameworks_compile_libbcc" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/av" name="androidarmv6/android_frameworks_av" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/compile/libbcc" name="androidarmv6/android_frameworks_compile_libbcc" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk" remote="cm" />
-  <project path="frameworks/compile/slang" name="androidarmv6/android_frameworks_compile_slang" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/compile/slang" name="androidarmv6/android_frameworks_compile_slang" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" />
   <project path="frameworks/mff" name="android_frameworks_mff" remote="cm" />
   <project path="frameworks/ml" name="android_frameworks_ml" remote="cm" />
-  <project path="frameworks/native" name="androidarmv6/android_frameworks_native" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/native" name="androidarmv6/android_frameworks_native" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="cm" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" remote="cm" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="cm" />
@@ -382,26 +382,26 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="cm" />
   <project path="frameworks/opt/telephony-msim" name="android_frameworks_opt_telephony-msim" remote="cm" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" />
-  <project path="frameworks/rs" name="androidarmv6/android_frameworks_rs" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/rs" name="androidarmv6/android_frameworks_rs" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" />
   <project path="frameworks/testing" name="android_frameworks_testing" remote="cm" />
   <project path="frameworks/volley" name="android_frameworks_volley" remote="cm" />
-  <project path="frameworks/webview" name="androidarmv6/android_frameworks_webview" remote="github" revision="cm-11.0" />
+  <project path="frameworks/webview" name="androidarmv6/android_frameworks_webview" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" remote="cm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" />
-  <project path="hardware/broadcom/wlan" name="androidarmv6/android_hardware_broadcom_wlan" remote="github" revision="cm-11.0" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="androidarmv6/android_hardware_broadcom_wlan" revision="cm-11.0" groups="broadcom_wlan" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" />
   <project path="hardware/invensense" name="android_hardware_invensense" groups="invensense" remote="cm" />
-  <project path="hardware/libhardware" name="androidarmv6/android_hardware_libhardware" remote="github" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/libhardware" name="androidarmv6/android_hardware_libhardware" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" revision="cm-11.0" groups="pdk" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom" remote="cm" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" groups="caf" remote="cm" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="cm" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom" remote="cm" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" groups="caf" remote="cm" />
-  <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" revision="cm-11.0" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="cm" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" groups="caf" remote="cm" />
@@ -474,7 +474,7 @@
   <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" remote="cm" />
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" remote="cm" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" remote="cm" />
-  <project path="packages/wallpapers/Basic" name="androidarmv6/android_packages_wallpapers_Basic" remote="github" revision="cm-11.0" />
+  <project path="packages/wallpapers/Basic" name="androidarmv6/android_packages_wallpapers_Basic" revision="cm-11.0" />
   <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" remote="cm" />
   <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" remote="cm" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="cm" />
@@ -486,10 +486,10 @@
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="pdk" remote="cm" />
   <project path="sdk" name="android_sdk" remote="cm" />
-  <project path="system/core" name="androidarmv6/android_system_core" remote="github" groups="pdk" />
+  <project path="system/core" name="androidarmv6/android_system_core" revision="cm-11.0" groups="pdk" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="cm" />
-  <project path="system/netd" name="androidarmv6/android_system_netd" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="system/netd" name="androidarmv6/android_system_netd" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cm" />
@@ -497,22 +497,22 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-11.0" />
 
   <!-- Device extras: legacy support -->
-  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
-  <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media-legacy" revision="cm-11.0" />
 
   <!-- ZTE Skate -->
   <project name="Fagyi/android_device_zte_skate" path="device/zte/skate" remote="github" revision="cm-11.0" />
   <project name="Fagyi/android_device_zte_msm7x27-common" path="device/zte/msm7x27-common" remote="github" revision="cm-11.0" />
-  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" remote="cm" revision="cm-11.0" />
-  <project name="Fagyi/android_kernel_zte_msm7x27" path="kernel/zte/msm7x27" remote="github" revision="cm-11.0" />
-  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="github" revision="cm-11.0" />
-  <project name="androidarmv6/android_vendor_zte" path="vendor/zte" remote="github" revision="cm-11.0" />
+  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" revision="cm-11.0" />
+  <project name="Fagyi/android_kernel_zte_msm7x27" path="kernel/zte/msm7x27" revision="cm-11.0" />
+  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" revision="cm-11.0" />
+  <project name="androidarmv6/android_vendor_zte" path="vendor/zte" revision="cm-11.0" />
 
   <!-- PAC-man -->
   <project path="build" name="android_build" groups="pdk" remote="pac" revision="pac-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="Fagyi/android_frameworks_base" remote="github" revision="pac-4.4" />
+  <project path="frameworks/base" name="Fagyi/android_frameworks_base" revision="pac-4.4" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/InsertCoins" name="android_packages_apps_InsertCoins" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pac" revision="pac-4.4" />
