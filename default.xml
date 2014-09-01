@@ -500,7 +500,7 @@
   <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media-legacy" revision="cm-11.0" />
 
   <!-- PAC-man -->
-  <project path="build" name="Fagyi/android_build" groups="pdk" revision="pac-4.4" >
+  <project path="build" name="androidarmv6/android_build" groups="pdk" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="Fagyi/android_frameworks_base" revision="pac-4.4" />
