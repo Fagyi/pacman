@@ -10,11 +10,11 @@ After preparing your machine, continue with the following instructions:
 
 To initialize your local repository using the PAC-man trees, use a command like this:
 
-    repo init -u git://github.com/PAC-man/pacman.git -b <branch>
+    repo init -u git://github.com/Fagyi/pacman.git -b <branch>
 
 To initialize for KitKat
 
-    repo init -u git://github.com/PAC-man/pacman.git -b pac-4.4
+    repo init -u git://github.com/Fagyi/pacman.git -b pac-4.4
 
 Then to sync up:
 
@@ -37,7 +37,7 @@ For a list of supported commands run the script on it's own:
 To build with flags, this is the layout needed:
     ./build-pac.sh <Optional_flags> <device codename>
 
-For an o3 optimization and Dex optimisations -if you don't understand, best to leave it- for the nexus 5 run:
+For an o3 optimization and Dex optimisations -if you don't understand, best to leave it- for the ZTE Skate run:
 
     ./build-pac.sh -o3 -d skate
 
